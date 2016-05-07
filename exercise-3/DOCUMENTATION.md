@@ -4,6 +4,21 @@ The world's smallest JavaScript calculator library (probably).
 
 ## Usage
 
+```javascript
+
+var c1 = Calc(2);
+var c2 = Calc(10);
+
+c1.plus(2)
+c2.times(10)
+c2..divide(2);
+
+console.log(c1.getVal());
+console.log(c2.getVal());
+console.log(c1.getVal());
+
+```
+
 
 ## API Functions
 Here are the functions that are available through Calc.js:
@@ -17,14 +32,6 @@ Here are the functions that are available through Calc.js:
 \# *Calc.getVal*()
 
 > Returns the current value in the Calc object
-
-Here is an example of calling the *Calc.getVal*() function:
-
-```javascript
-
-var myCalc = Calc.getVal()
-
-```
 
 \# *Calc.plus(number)
 
