@@ -13,9 +13,18 @@ Here are the functions that are available through Calc.js:
 
 > Constructs a Calc object with the current value set to `number`
 
+
 \# *Calc.getVal*()
 
 > Returns the current value in the Calc object
+
+Here is an example of calling the *Calc.getVal*() function:
+
+'''javascript
+
+var myCalc = Calc.getVal()
+
+'''
 
 \# *Calc.plus(number)
 
