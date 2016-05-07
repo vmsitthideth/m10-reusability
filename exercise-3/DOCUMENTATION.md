@@ -20,11 +20,11 @@ Here are the functions that are available through Calc.js:
 
 Here is an example of calling the *Calc.getVal*() function:
 
-'''javascript
+```javascript
 
 var myCalc = Calc.getVal()
 
-'''
+```
 
 \# *Calc.plus(number)
 
